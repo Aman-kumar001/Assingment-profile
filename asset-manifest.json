@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Assingment-profile/static/css/main.cc33c63e.chunk.css",
+    "main.js": "/Assingment-profile/static/js/main.95d2adaf.chunk.js",
+    "main.js.map": "/Assingment-profile/static/js/main.95d2adaf.chunk.js.map",
+    "runtime-main.js": "/Assingment-profile/static/js/runtime-main.388ce0b5.js",
+    "runtime-main.js.map": "/Assingment-profile/static/js/runtime-main.388ce0b5.js.map",
+    "static/js/2.258f7e29.chunk.js": "/Assingment-profile/static/js/2.258f7e29.chunk.js",
+    "static/js/2.258f7e29.chunk.js.map": "/Assingment-profile/static/js/2.258f7e29.chunk.js.map",
+    "static/js/3.ebafc1aa.chunk.js": "/Assingment-profile/static/js/3.ebafc1aa.chunk.js",
+    "static/js/3.ebafc1aa.chunk.js.map": "/Assingment-profile/static/js/3.ebafc1aa.chunk.js.map",
+    "index.html": "/Assingment-profile/index.html",
+    "static/css/main.cc33c63e.chunk.css.map": "/Assingment-profile/static/css/main.cc33c63e.chunk.css.map",
+    "static/js/2.258f7e29.chunk.js.LICENSE.txt": "/Assingment-profile/static/js/2.258f7e29.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.388ce0b5.js",
+    "static/js/2.258f7e29.chunk.js",
+    "static/css/main.cc33c63e.chunk.css",
+    "static/js/main.95d2adaf.chunk.js"
+  ]
+}
