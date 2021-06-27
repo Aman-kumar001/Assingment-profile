@@ -1,38 +1,64 @@
-.App {
+.loading{
+  height: 20vh;
+  width:30vw;
+  border:1px solid black;
+  margin-left: 35%;
+}
+
+
+/* card */
+.topleft{
+  border: 1px solid black;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pic{
+  margin-left: 20px;
+  height:80px;
+  border-radius: 50%;
+  margin-top: 20%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.topRight{
+  padding:10px;
+  flex-grow: 4;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.topRight p{
+  margin-top: 0px;
+  margin-left: 20px;
+  padding: 0;
 }
-
-.App-link {
-  color: #61dafb;
+.name{
+  position: relative;
+  top:5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.location{
+  position: relative;
+  top:-10px;
+}
+.content p{
+  text-align: center;
+}
+.content h2{
+  position: relative;
+  top:30px;
+}
+.mail{
+  position: relative;
+  top:15px;
+}
+.name{
+  font-size: larger;
+  font-weight: bolder;
+}
+.gender{
+  font-weight: bolder;
+  position: relative;
+  top:-10px;
+}
+.location{
+  position: relative;
+  top:-20px;
+  font-size: small;
 }

@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import { makeStyles } from '@material-ui/core';
 import './App.css';
+import Card from './components/Card';
+import { useState,useEffect } from 'react';
+const style=makeStyles({
+  pending:{
+    width:"100vw",
+    height:"80vh",
+    backgroundColor:"#FFEE93",
+    paddingTop:"20vh",
+  },
+  loop:{
+
+  },
+
+})
 
 function App() {
+  const classes=style();
+  const [loop,setLoop]=useState(false);
+  const url="https://randomuser.me/api/";
+  const [all,setall]=useState([]);
+  useEffect(() => {
+      fetch(url)
+      .then(res=>{return res.json()})
+      .then(data=>setall(data))
+      setLoop(true)
+  }, [])
+  console.log(all);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {all.length!==0 && <Card data={all}/>}
     </div>
   );
 }
